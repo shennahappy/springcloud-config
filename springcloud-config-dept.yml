@@ -12,8 +12,8 @@ mybatis:
   mapper-locations: classpath:mybatis/mapper/**/*.xml       # mapper映射文件
     
 spring:
-   application:
    profiles: dev
+   application:
     name: springcloud-config-dept
    datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
@@ -51,8 +51,8 @@ mybatis:
   mapper-locations: classpath:mybatis/mapper/**/*.xml       # mapper映射文件
     
 spring:
-   application:
    profiles: test
+   application:
     name: springcloud-config-dept
    datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
